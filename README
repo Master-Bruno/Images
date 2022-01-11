@@ -1,3 +1,43 @@
+# Information Gathering Tool
+
+
+### Installation On Termux
+ 
+ 
+```bash
+$ apt update
+$ apt upgrade
+$ pkg install git
+$ pkg install python
+$ pkg install perl
+$ pip2 install mechanize
+$ pip2 install requests
+$ git clone https://github.com/achuzachu/Images.git
+$ cd lmages
+$ ls
+$ chmod +x *
+$ perl Makefile.PL
+$ ./lnformation 
+
+ Tool Installation successful
+
+```
+#### For iSH
+ 
+To use the application, type in the following commands in iSH.
+```shell script
+apk add git
+apk add perl
+apk add py3-pip
+apk add python2
+gem install toilet
+git clone https://github.com/achuzachu/Images.git
+cd Images
+chmod +x *
+perl Makefile.PL
+./information 
+
+ Tool Installation successful
 
  # File Types
   ------------+-------------+-------------+-------------+------------
