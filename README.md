@@ -9,13 +9,10 @@ This is a tool that helps you to find information of all types of files
 Pdf,Png, Jpg,Jpeg,Mp3,Mp4, Opus Etc.. 
 
 
- Information Gathering Tool
-
-
-Installation On Termux
+### Installation On Termux
  
  
-
+```bash
 $ apt update
 $ apt upgrade
 $ pkg install git
@@ -32,11 +29,11 @@ $ ./lnformation
 
  Tool Installation successful
 
-
-## For iSH
+```
+#### For iSH
  
 To use the application, type in the following commands in iSH.
-   shell script
+```shell script
 apk add git
 apk add perl
 apk add py3-pip
@@ -49,6 +46,8 @@ perl Makefile.PL
 ./information 
 
  Tool Installation successful
+
+
 
  # File Types
   ------------+-------------+-------------+-------------+------------
